@@ -1,0 +1,11 @@
+CREATE DATABASE DEMO;
+
+USE DEMO;
+
+CREATE TABLE
+     STUDENS (
+          ID INT PRIMARY KEY,
+          NAME VARCHAR(50),
+          AGE INT,
+          ADDRESS VARCHAR(255)
+     );
